@@ -10,17 +10,13 @@
 
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+  <!-- custom css -->
+  <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 
 <body>
@@ -30,31 +26,33 @@
 
     <img src="./images/illustration-hero.svg" alt="" class="illustration">
 
-    <h1 class="title">Order Summary</h1>
+    <div class="order-summary-wrapper">
+      <h1 class="title">Order Summary</h1>
 
-    <p class="description">
-      You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
-    </p>
+      <p class="description">
+        You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+      </p>
 
-    <div class="order-details">
-      <img src="./images/icon-music.svg" alt="">
+      <div class="order-details">
+        <img src="./images/icon-music.svg" alt="">
 
-      <div class="order-plan">
-        <h2>Annual Plan</h2>
-        <p>$59.99/year</p>
+        <div class="order-plan">
+          <h2>Annual Plan</h2>
+          <p>$59.99/year</p>
+        </div>
+
+        <a href="#" class="change-plan">Change</a>
       </div>
 
-      <a href="#" class="change-plan">Change</a>
+      <button id="proceed">Proceed to Payment</button>
+      <button id="cancel">Cancel Order</button>
     </div>
-
-    <button id="proceed">Proceed to Payment</button>
-    <button id="cancel">Cancel Order</button>
 
   </section>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Festus Muia</a>.
+    Coded by <a href="https://github.com/MuiaMuteti" target="_blank">Festus Muia</a>.
   </div>
 </body>
 
